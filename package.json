@@ -1,0 +1,29 @@
+{
+  "name": "test-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@types/node": "^12.11.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "jasmine": "^3.5.0",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "David Norminton",
+  "license": "ISC"
+}
